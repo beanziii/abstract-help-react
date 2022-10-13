@@ -1,11 +1,11 @@
 import styles from './Header.module.css';
-import Logo from './Logo';
-import HeaderControls from './HeaderControls';
+import HeaderLogo from './HeaderLogo/HeaderLogo';
+import HeaderControls from './HeaderControls/HeaderControls';
 
 function Header() {
   return (
     <header className={styles.header}>
-      <Logo />
+      <HeaderLogo />
       <HeaderControls />
     </header>
   );

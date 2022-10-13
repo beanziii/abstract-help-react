@@ -1,0 +1,21 @@
+.btn {
+  font-size: 2rem;
+  color: currentColor;
+  background-color: rgb(25, 26, 27);
+  border: 1px solid rgb(255, 255, 355);
+  border-radius: 8px;
+  padding: 0.6rem 2.2rem;
+  cursor: pointer;
+}
+
+.btnBlue {
+  background-color: rgb(76, 95, 213);
+  border: 1px solid rgb(76, 95, 213);
+  transition: all 0.3s;
+}
+
+.btnBlue:hover {
+  background-color: rgb(255, 255, 355);
+  border: 1px solid rgb(255, 255, 355);
+  color: rgb(25, 26, 27);
+}
