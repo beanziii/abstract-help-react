@@ -1,0 +1,14 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  font-size: 2.4rem;
+  color: rgb(255, 255, 355);
+}
+
+.help {
+  padding-left: 2rem;
+  border-left: 2px solid rgb(255, 255, 255);
+  line-height: 1.2;
+}
