@@ -1,0 +1,13 @@
+section {
+  background-color: rgb(218, 219, 241);
+  width: 100%;
+  padding: 8rem;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: -4px;
+  margin-bottom: 2rem;
+}

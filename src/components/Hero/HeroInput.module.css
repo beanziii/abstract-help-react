@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  width: 100%;
+  font-family: inherit;
+  font-size: 2rem;
+  border-radius: 4px;
+  border: 1px solid rgb(92, 93, 95);
+  box-shadow: 0 9px 14px 0 rgb(0 0 0 / 10%);
+  outline: none;
+}
+
+.input:focus,
+.input:hover {
+  border: 1px solid rgb(76, 95, 213) !important;
+}
+
+.arrow {
+  position: absolute;
+  width: 2.8rem;
+  height: 2rem;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+}
+
+.input:hover + .arrow {
+  stroke: rgb(76, 95, 213);
+}
