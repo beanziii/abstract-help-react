@@ -4,14 +4,16 @@
   background-color: rgb(25, 26, 27);
   border: 1px solid rgb(255, 255, 355);
   border-radius: 8px;
-  padding: 1rem 2.4rem;
+  padding: 1rem 2rem;
   cursor: pointer;
+  letter-spacing: 0.2px;
 }
 
 .btnBlue {
   background-color: rgb(76, 95, 213);
   border: 1px solid rgb(76, 95, 213);
   transition: all 0.3s;
+  padding: 1rem 3rem;
 }
 
 .btnBlue:hover {

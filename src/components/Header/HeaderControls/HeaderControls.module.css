@@ -3,7 +3,7 @@
   color: rgb(255, 255, 355);
 
   display: flex;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 
 @media (max-width: 430px) {
