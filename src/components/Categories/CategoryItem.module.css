@@ -24,7 +24,14 @@
   line-height: 3.2rem;
 }
 
-.link {
+.link:link,
+.link:visited {
   font-size: 2rem;
   color: rgb(76, 95, 213);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
 }
