@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  gap: 4rem;
+}
+
+.icon {
+  max-height: 8.6rem;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.content {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.link {
+  font-size: 2rem;
+  color: rgb(76, 95, 213);
+}
