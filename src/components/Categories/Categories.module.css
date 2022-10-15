@@ -3,7 +3,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
   max-width: 1600px;
-  width: 80% !important;
+  width: 80%;
   margin: 12.8rem auto;
   padding: 3rem;
+}
+
+@media (max-width: 1161px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }

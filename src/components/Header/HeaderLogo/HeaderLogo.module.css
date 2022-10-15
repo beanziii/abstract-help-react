@@ -12,6 +12,13 @@
   padding-left: 2rem;
   border-left: 2px solid rgb(255, 255, 255);
   line-height: 1.2;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.help:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 430px) {

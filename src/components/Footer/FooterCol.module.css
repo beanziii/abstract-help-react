@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0px;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.link,
+.link:link,
+.link:visited {
+  cursor: pointer;
+  font-size: inherit;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
+}

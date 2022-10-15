@@ -48,6 +48,7 @@ function Categories() {
     <div className={styles.container}>
       {categories.map((item) => (
         <CategoryItem
+          key={Math.random().toString()}
           iconUrl={item.iconUrl}
           title={item.title}
           content={item.content}

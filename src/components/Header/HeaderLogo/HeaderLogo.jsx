@@ -4,7 +4,9 @@ function Logo() {
   return (
     <div className={styles.wrapper}>
       <div>Abstract</div>
-      <div className={styles.help}>Help Center</div>
+      <a href="#" className={styles.help}>
+        Help Center
+      </a>
     </div>
   );
 }
